@@ -1,0 +1,30 @@
+ul.menuv {
+    width: 180px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    border: 1px solid #7c7c7c;
+    border-bottom: none;
+}
+    ul.menuv li {
+    border-bottom: 1px solid 
+    #7c7c7c;
+    border-top: 1px solid #fff;
+    background: #f4f4f4;
+}
+
+ul.menuh {
+    clear: both;
+    float: left;
+    width: 100%;
+    list-style: none;
+    margin: 0;
+    padding: 1px;
+}
+ul.menuh li {
+    float: left;
+    width: 180px;
+    border: 1px solid #7c7c7c;
+    background: #f4f4f4;
+}
+        
