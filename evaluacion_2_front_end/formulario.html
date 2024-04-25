@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de Contacto</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <div class="menu">
+        <h1>M.</h1>
+        <ul class="menu-items">
+            <li><a href="/frontend_inacap/evaluacion_2_front_end/imagenes/4.png"><img src="/frontend_inacap/evaluacion_2_front_end/imagenes/4.png" alt="Home" style="width:30px;height:30px;"><br>Home</a></li>
+            <li><a href="/frontend_inacap/evaluacion_2_front_end/imagenes/3.png"><img src="/frontend_inacap/evaluacion_2_front_end/imagenes/3.png" alt="About" style="width:30px;height:30px;"><br>About</a></li>
+            <li><a href="/frontend_inacap/evaluacion_2_front_end/imagenes/1.png"><img src="/frontend_inacap/evaluacion_2_front_end/imagenes/1.png" alt="Blog" style="width:30px;height:30px;"><br>Blog</a></li>
+            <li><a href="/frontend_inacap/evaluacion_2_front_end/imagenes/5.png"><img src="/frontend_inacap/evaluacion_2_front_end/imagenes/5.png" alt="Services" style="width:30px;height:30px;"><br>Services</a></li>
+            <li><a href="/frontend_inacap/evaluacion_2_front_end/imagenes/2.jpg"><img src="/frontend_inacap/evaluacion_2_front_end/imagenes/2.jpg" alt="Contacts" style="width:30px;height:30px;"><br>Contacts</a></li>
+        </ul>
+    </div>
+    <div class="contenido">
+        <div class="caja-titulo">
+            <h2>Contacts</h2>
+        </div>
+        <form>
+            <div class="formulario-nombre">
+                <label>Nombre</label>
+                <input type="text" id="nombre">
+            </div>
+
+            <div class="formulario-aporte">
+                <label>Aporte</label>
+                <input type="number" id="aporte" name="aporte" min="0" required>
+            </div>
+
+            <div class="formulario-nacimiento">
+                <label>Nacimiento</label>
+                <input type="date" id="nacimiento">
+            </div>
+
+            <div class="formulario-nombre">
+                <label>Signo</label>
+                <select id="signo">
+                    <option>Aries</option>
+                    <option>Acuario</option>
+                    <option>Leo</option>
+                    <option>Sagitario</option>
+                    <option>Escorpio</option>
+                    <option>Cancer</option>
+                    <option>Tauro</option>
+                    <option>Capricornio</option>
+                    <option>Libra</option>
+                    <option>Pisis</option>
+                    <option>Géminis</option>
+                </select>
+            </div>
+            <label class="formulario-nombre">
+                <h4>Sexo</h4>
+                <input type="radio" name="sexo" value="femenino"> Femenino
+                <input type="radio" name="sexo" value="masculino"> Masculino
+            </label>
+
+            <label class="formulario-nombre">
+                <h3>Idiomas</h3>
+            <input type="checkbox" name="idiomas" value="español"> Español
+            <input type="checkbox" name="idiomas" value="ingles"> Inglés
+            <input type="checkbox" name="idiomas" value="aleman"> Alemán
+            <input type="checkbox" name="idiomas" value="frances"> Francés
+            </label>
+
+            <button type="submit">Enviar</button>
+        </form>
+    </div>
+</body>
+</html>
